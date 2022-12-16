@@ -1,0 +1,53 @@
+
+/* Position Header */
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+header.home{
+    background-color: blueviolet;
+    box-shadow: rgb(0 0 0 / 8%) 0px 5px 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    position: sticky;
+    top: 0;
+    /* optional a position sticky */
+    /* position: fixed */
+    width: 100%;
+}
+
+/* .heightTop{
+    height: 200px;
+} */
+
+img.imgLogo{
+    width: 100px;
+}
+
+img.burgerMenu{
+    width: 30px;
+    display: none;
+}
+
+
+ul.navegation{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ul.navegation li{
+    padding-left: 20px;
+} */
+
+
+

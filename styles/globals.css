@@ -1,0 +1,61 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./responsive.css");
+
+
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: tomato;
+    font-family: "Work Sans", sans-serif;
+}
+
+button{
+
+    width: 100px;
+    height: 100px;
+
+    padding: 12px 15px 18px 21px;
+    
+    /* padding-left: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ; */
+    
+    border: 5px black solid;
+
+    /* border-color: ;
+    border-style: ;
+    border-width: ; */
+
+    border-radius: 100%;
+}
+
+/* UTILS */
+.bggray-colorgreen{
+    color: green;
+    background-color: rgb(239, 247, 242);
+    padding: 5px;
+}
+
+.gray{
+    color: gray;
+}
+
+
+
+
+
